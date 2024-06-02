@@ -3,15 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Text-to-Speech Converter</title>
+<title>Text-to-Speech and Speech-to-Text Converter</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
-  <h1>Text-to-Speech Converter</h1>
+  <h1>Text-to-Speech and Speech-to-Text Converter</h1>
   
   <textarea id="text-to-read" placeholder="Enter text here..."></textarea>
   <button id="speak-btn">Speak</button>
+
+  <div class="speech-to-text">
+    <button id="record-btn">Start Recording</button>
+    <div id="recognized-text"></div>
+  </div>
+  
   <h2>Developed with ❤️ by Ninad</h2>
 </div>
 <script src="script.js"></script>
